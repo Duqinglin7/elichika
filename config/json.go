@@ -25,7 +25,7 @@ func DefaultConfigs() *AppConfigs {
 	return &AppConfigs{
 		AppName: "elichika",
 		Settings: Settings{
-			CdnServer: "http://127.0.0.1/static",
+			CdnServer: "http://127.0.0.1:8080/static",
 		},
 	}
 }
